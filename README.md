@@ -1,2 +1,2 @@
-# distance-display
-a project that measures distance and displays it on a screen 
+# distance display
+A arduino projeckt that messures distance and displays it on a arduino dispaly screen
