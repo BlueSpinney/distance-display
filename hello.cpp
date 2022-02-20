@@ -59,9 +59,9 @@ int t1 = 1;
        lcd.setCursor(2, 0);
        lcd.print("    ");
      }
-     else if (distance < 1000){
-       lcd.setCursor(3, 0);
-       lcd.print("    ");
+     else if (distance > 1000){
+       lcd.setCursor(0, 0);
+       lcd.print("err    ");
      }
      if (button == 0){
        delay(500);
@@ -91,7 +91,7 @@ int t1 = 1;
     lcd.setCursor(0, 1);
     lcd.print("                                    ");
     lcd.setCursor(0, 1);
-     lcd.print(":)");
+     lcd.print("spiff.co");
      
      
 }
